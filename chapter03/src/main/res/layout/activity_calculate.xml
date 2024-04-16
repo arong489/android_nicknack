@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e0e0e0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/simple_calculate"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/calculate_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="end|bottom"
+                android:lines="3"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:rowCount="5">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/cancel"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_divide"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/divide"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_multiply"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/multiply"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_clear"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/clear"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_seven"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/seven"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_eight"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/eight"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_nine"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/nine"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_add"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/add"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_four"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/four"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_five"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/five"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_six"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/six"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_minus"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/minus"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_one"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/one"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_two"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/two"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_three"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/three"
+                    android:textSize="@dimen/button_font_size" />
+
+                <ImageButton
+                    android:id="@+id/btn_sqrt"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:contentDescription="@string/sqrt"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/sqrt" />
+
+                <Button
+                    android:id="@+id/btn_reciprocal"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/reciprocal"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_zero"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/zero"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_dot"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/dot"
+                    android:textSize="@dimen/button_font_size" />
+
+                <Button
+                    android:id="@+id/btn_equal"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_columnWeight="1"
+                    android:gravity="center"
+                    android:text="@string/equal"
+                    android:textSize="@dimen/button_font_size" />
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

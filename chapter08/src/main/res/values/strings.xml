@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chapter08</string>
+    <string name="spinner">下拉列表框</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="spinner2">选择列表框</string>
+    <string name="item_simple_description">下拉表图片</string>
+</resources>
